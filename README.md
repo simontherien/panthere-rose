@@ -141,9 +141,9 @@ def train(data_util, X, Y, model, criterion, optim, batch_size):
         n_samples += (output.size(0) * data_util.m)
     return total_loss / n_samples
 ```
-On est maintenant équipés pour entrainer le modèle et faire des prédictions sur un sous-ensemble des données.
+Nous sommes maintenant équipés pour entraîner le modèle et faire des prédictions sur un sous-ensemble des données.
 ## 4. Résultats
-Après avoir entraîné le modèle partiellement (accès limité à des puissances de calcul), on remarque des résultats prometteurs. On peut visualiser les prédictions sur certains utilisateurs pour s'en assurer (avec des données normalisées pour faciliter l'entraînement du modèle). Les données en entrée sont bleues, les vraies données en vert et les prédictions en rouge :
+Après avoir entraîné le modèle partiellement (accès limité à des puissances de calcul), on remarque des résultats prometteurs sur les dernières données de la série. On peut visualiser les prédictions sur certains utilisateurs pour s'en assurer (avec des données normalisées pour faciliter l'entraînement du modèle). Les données en entrée sont bleues, les vraies données en vert et les prédictions en rouge :
 ![alt text](pred_1.png)
 
 ![alt text](pred_2.png)
