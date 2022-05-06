@@ -1,4 +1,4 @@
-# Prédiction de la demande d'électricité au Portgual : une approche d'apprentissage
+# Prédiction de la demande d'électricité au Portugal : une approche d'apprentissage
 Simon Thérien - Mag Energy Solutions
 
 ## 1. Introduction
